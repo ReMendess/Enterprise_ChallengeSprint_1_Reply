@@ -12,13 +12,9 @@
 
 ## Nome do Grupo
 
-| Nome Completo | Função no Projeto         |
-|---------------|---------------------------|
-| Nome 1        | Integrador IoT            |
-| Nome 2        | Desenvolvedor Backend     |
-| Nome 3        | Cientista de Dados        |
-| Nome 4        | Desenvolvedor Frontend    |
-| Nome 5        | Especialista NLP / IA     |
+- Arthur Luiz Rosado Alves -> RM562061
+- Renan de Oliveira Mendes -> RM563145
+
 
 
 ## Sumário
