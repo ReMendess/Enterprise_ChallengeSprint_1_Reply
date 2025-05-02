@@ -6,67 +6,156 @@
 
 <br>
 
-# Nome do projeto
+# Enterprise Challenge - Sprint 1 - Reply
 
-## Nome do grupo
+**_Os trechos em itálico servem apenas como guia para o preenchimento da seção. Por esse motivo, não devem fazer parte da documentação final_**
 
-## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+## Nome do Grupo
 
-## 👩‍🏫 Professores:
-### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
-### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
+| Nome Completo | Função no Projeto         |
+|---------------|---------------------------|
+| Nome 1        | Integrador IoT            |
+| Nome 2        | Desenvolvedor Backend     |
+| Nome 3        | Cientista de Dados        |
+| Nome 4        | Desenvolvedor Frontend    |
+| Nome 5        | Especialista NLP / IA     |
 
 
-## 📜 Descrição
+## Sumário
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+[1. Justificativa do Problema](#c1)
 
+[2. Descrição da Solução Proposta](#c2)
 
-## 📁 Estrutura de pastas
+[3. Tecnologias Propostas](#c3)
 
-Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
+[4. Pipeline de Dados](#c4)
 
-- <b>.github</b>: Nesta pasta ficarão os arquivos de configuração específicos do GitHub que ajudam a gerenciar e automatizar processos no repositório.
+[5. Diferencial com IA Integrada e Comunicação Inteligente](#c5)
 
-- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
+[6. Infraestrutura de Execução](#c6)
 
-- <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto.
+[7. Plano Inicial de Desenvolvimento](#c7)
 
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Na subpasta "other", adicione documentos complementares e menos importantes.
+[8. Diagrama](#c8)
 
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
+[Anexos](#c9)
 
-- <b>src</b>: Todo o código fonte criado para o desenvolvimento do projeto ao longo das 7 fases.
+<br>
 
-- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+# <a name="c1"></a>1. Justificativa do Problema
 
-## 🔧 Como executar o código
+*Indústrias frequentemente enfrentam paradas inesperadas nas linhas de produção, gerando perdas financeiras, atrasos logísticos e riscos à segurança operacional. A ausência de um sistema preditivo e em tempo real dificulta a prevenção de falhas. Nossa solução busca monitorar continuamente os equipamentos, identificar padrões de falhas e antecipar manutenções, promovendo um ambiente mais eficiente e inteligente..*
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+# <a name="c2"></a>2. Descrição da Solução Proposta
 
+Desenvolveremos uma plataforma inteligente de monitoramento industrial, integrando sensores IoT, armazenamento em nuvem, processamento com IA e dashboards interativos. O sistema será capaz de:
 
-## 🗃 Histórico de lançamentos
+- **Coletar dados em tempo real via sensores (ESP32)**;
 
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
+- **Armazenar os dados em um banco de dados na nuvem;**
 
-## 📋 Licença
+- **Aplicar algoritmos de machine learning para predição de falhas;**
 
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
+- **Notificar automaticamente os funcionários via aplicativo web/móvel com linguagem natural (NLP);**
+
+- **Exibir insights e relatórios em dashboards acessíveis.**
+
+# <a name="c3"></a>3. Tecnologias Propostas
 
 
+| Camada            | Tecnologias                           |
+|-------------------|----------------------------------------|
+| Sensoriamento     | ESP32 com sensores                    |
+| Transmissão       | MQTT via Wi-Fi                        |
+| Armazenamento     | PostgreSQL (local ou em nuvem)        |
+| Backend APIs      | Python (Flask ou FastAPI)             |
+| IA / ML           | Scikit-learn, TensorFlow, Keras       |
+| Frontend          | React, Dash (Plotly)                  |
+| Notificações      | Telegram Bot, WhatsApp API            |
+| Infraestrutura    | AWS EC2, Lambda, S3                   |
+
+# <a name="c4"></a>4. Pipeline de Dados
+
+*Sensores IoT (ESP32) simulam ou captam dados de:
+
+-Vibração anormal (indicador de falha mecânica);
+
+-Temperatura excessiva (indicador de superaquecimento);
+
+-Umidade (indicador de ambiente insalubre).
+
+-Transmissão dos dados via protocolo MQTT para servidor de ingestão.
+
+-API Coletar Dados armazena no banco de dados PostgreSQL hospedado em nuvem.
+
+API Análise de Dados:
+
+-Realiza pré-processamento (normalização, remoção de ruído);
+
+-Usa modelos preditivos treinados com histórico;
+
+-Classifica anomalias e riscos de falha.
+
+API Dashboard exibe:
+
+-Status dos sensores;
+
+-Alertas preditivos;
+
+-Relatórios de eficiência e manutenção sugerida.
+
+Notificações automatizadas:
+
+-Funcionários são avisados por texto, áudio ou chatbot com recomendações práticas (ex: "Reduza carga da máquina 02, risco de falha em 12h").*
+
+
+# <a name="c5"></a>5. Diferencial com IA Integrada e Comunicação Inteligente
+
+
+*Além da predição de falhas, a IA utilizará técnicas de Processamento de Linguagem Natural (NLP) para traduzir insights técnicos em mensagens compreensíveis aos operadores, como:
+
+"A máquina 3 apresentou aumento de vibração fora do padrão. Recomendamos inspeção preventiva nas próximas 4 horas."
+
+Isso pode ser integrado com:
+
+Chatbots internos (Telegram, WhatsApp, Microsoft Teams);
+
+Notificações com áudio gerado por IA para áreas barulhentas (Text-to-Speech).*
+
+# <a name="c6"></a>6. Infraestrutura de Execução
+
+
+*Coleta local: ESP32 envia dados via MQTT.
+
+Processamento em nuvem: AWS EC2 com Python.
+
+Armazenamento escalável: AWS RDS (PostgreSQL) ou alternativa open-source.
+
+Visualização: Dashboards via React, Dash ou Grafana.
+
+Notificações: APIs de envio com IA + NLP.*
+
+
+# <a name="c7"></a>7. Plano Inicial de Desenvolvimento
+
+
+| Etapa | Atividade                            | Responsável         |
+|-------|--------------------------------------|----------------------|
+| 1     | Escolha e simulação de sensores      | Integrador IoT       |
+| 2     | Criação das APIs                     | Dev Backend          |
+| 3     | Pipeline de ingestão de dados        | Dev Backend          |
+| 4     | Treinamento do modelo de IA          | Cientista de Dados   |
+| 5     | Desenvolvimento de dashboards        | Dev Frontend         |
+| 6     | Mensagens com NLP e voz              | Especialista NLP     |
+
+
+# <a name="c8"></a>8. Diagrama
+
+<p align="center">
+<img src="document/other/teste.png" alt="Driagrama da solução"></a>
+</p>
+
+# <a name="c9"></a>Anexos
+
+*Inclua aqui quaisquer complementos para seu projeto, como diagramas, imagens, tabelas etc. Organize em sub-tópicos utilizando headings menores (use ## ou ### para isso).*
