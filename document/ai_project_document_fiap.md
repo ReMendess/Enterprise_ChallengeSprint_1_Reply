@@ -13,80 +13,135 @@
 
 ## Sumário
 
-[1. Introdução](#c1)
+[1. Justificativa do Problema](#c1)
 
-[2. Visão Geral do Projeto](#c2)
+[2. Descrição da Solução Proposta](#c2)
 
-[3. Desenvolvimento do Projeto](#c3)
+[3. Tecnologias Propostas](#c3)
 
-[4. Resultados e Avaliações](#c4)
+[4. Pipeline de Dados](#c4)
 
-[5. Conclusões e Trabalhos Futuros](#c5)
+[5. Diferencial com IA Integrada e Comunicação Inteligente](#c5)
 
-[6. Referências](#c6)
+[6. Infraestrutura de Execução](#c6)
 
-[Anexos](#c7)
+[7. Plano Inicial de Desenvolvimento](#c7)
+
+[8. Referências](#c8)
+
+[Anexos](#c9)
 
 <br>
 
-# <a name="c1"></a>1. Introdução
+# <a name="c1"></a>1. Justificativa do Problema
 
-## 1.1. Escopo do Projeto
+*Indústrias frequentemente enfrentam paradas inesperadas nas linhas de produção, gerando perdas financeiras, atrasos logísticos e riscos à segurança operacional. A ausência de um sistema preditivo e em tempo real dificulta a prevenção de falhas. Nossa solução busca monitorar continuamente os equipamentos, identificar padrões de falhas e antecipar manutenções, promovendo um ambiente mais eficiente e inteligente..*
 
-### 1.1.1. Contexto da Inteligência Artificial
+# <a name="c2"></a>2. Descrição da Solução Proposta
 
-*Descreva aqui o contexto da indústria de Inteligência Artificial. Explique o segmento de atuação, as atividades executadas e a abrangência das suas aplicações (internacional, nacional ou regional).*
+*Desenvolveremos uma plataforma inteligente de monitoramento industrial, integrando sensores IoT, armazenamento em nuvem, processamento com IA e dashboards interativos. O sistema será capaz de:
 
-### 1.1.2. Descrição da Solução Desenvolvida
+Coletar dados em tempo real via sensores (ESP32);
 
-*Descreva brevemente a solução de IA desenvolvida. Inclua aspectos essenciais para a criação de valor do produto com o objetivo de entender melhor a realidade do cliente e entregar uma solução alinhada com suas expectativas.*
+Armazenar os dados em um banco de dados na nuvem;
 
-# <a name="c2"></a>2. Visão Geral do Projeto
+Aplicar algoritmos de machine learning para predição de falhas;
 
-## 2.1. Objetivos do Projeto
+Notificar automaticamente os funcionários via aplicativo web/móvel com linguagem natural (NLP);
 
-*Defina claramente os objetivos do projeto de IA. O que o projeto pretende alcançar?*
+Exibir insights e relatórios em dashboards acessíveis.*
 
-## 2.2. Público-Alvo
+# <a name="c3"></a>3. Tecnologias Propostas
 
-*Identifique o público-alvo do projeto. Quem são os usuários finais da solução desenvolvida?*
 
-## 2.3. Metodologia
+*Camada	Ferramentas / Tecnologias
+Sensoriamento	ESP32 com sensores de vibração, temperatura e umidade
+Transmissão	MQTT via WiFi
+Armazenamento	PostgreSQL (Open Source Database) ou AWS RDS
+Backend APIs	Python (Flask ou FastAPI)
+IA / ML	Python (Scikit-learn, TensorFlow ou Keras)
+Front-end	React ou Dash (Plotly) para dashboards
+Notificações	Telegram Bot, WhatsApp Business API ou App personalizado
+Infraestrutura	AWS EC2 (processamento), Lambda (eventos), S3 (logs)*
 
-*Descreva a metodologia utilizada para desenvolver o projeto. Quais foram as etapas e processos seguidos?*
+# <a name="c4"></a>4. Pipeline de Dados
 
-# <a name="c3"></a>3. Desenvolvimento do Projeto
+*Sensores IoT (ESP32) simulam ou captam dados de:
 
-## 3.1. Tecnologias Utilizadas
+Vibração anormal (indicador de falha mecânica);
 
-*Liste as tecnologias, ferramentas e bibliotecas utilizadas no desenvolvimento do projeto de IA.*
+Temperatura excessiva (indicador de superaquecimento);
 
-## 3.2. Modelagem e Algoritmos
+Umidade (indicador de ambiente insalubre).
 
-*Descreva os modelos e algoritmos de IA utilizados no projeto. Explique por que esses modelos foram escolhidos e como foram implementados.*
+Transmissão dos dados via protocolo MQTT para servidor de ingestão.
 
-## 3.3. Treinamento e Teste
+API Coletar Dados armazena no banco de dados PostgreSQL hospedado em nuvem.
 
-*Descreva o processo de treinamento e teste dos modelos de IA. Inclua informações sobre os conjuntos de dados utilizados, métricas de avaliação e resultados obtidos.*
+API Análise de Dados:
 
-# <a name="c4"></a>4. Resultados e Avaliações
+Realiza pré-processamento (normalização, remoção de ruído);
 
-## 4.1. Análise dos Resultados
+Usa modelos preditivos treinados com histórico;
 
-*Analise os resultados obtidos com os modelos de IA. Compare os resultados esperados com os resultados reais e discuta as possíveis razões para as diferenças.*
+Classifica anomalias e riscos de falha.
 
-## 4.2. Feedback dos Usuários
+API Dashboard exibe:
 
-*Inclua feedback recebido de usuários finais durante o processo de avaliação do projeto.*
+Status dos sensores;
 
-# <a name="c5"></a>5. Conclusões e Trabalhos Futuros
+Alertas preditivos;
 
-*Descreva de que formas a solução desenvolvida atingiu os objetivos do projeto. Indique pontos fortes e pontos a melhorar. Relacione os pontos de melhorias evidenciados e elabore um plano de ações para serem implementadas no futuro.*
+Relatórios de eficiência e manutenção sugerida.
 
-# <a name="c6"></a>6. Referências
+Notificações automatizadas:
+
+Funcionários são avisados por texto, áudio ou chatbot com recomendações práticas (ex: "Reduza carga da máquina 02, risco de falha em 12h").*
+
+
+# <a name="c5"></a>5. Diferencial com IA Integrada e Comunicação Inteligente
+
+
+*Além da predição de falhas, a IA utilizará técnicas de Processamento de Linguagem Natural (NLP) para traduzir insights técnicos em mensagens compreensíveis aos operadores, como:
+
+"A máquina 3 apresentou aumento de vibração fora do padrão. Recomendamos inspeção preventiva nas próximas 4 horas."
+
+Isso pode ser integrado com:
+
+Chatbots internos (Telegram, WhatsApp, Microsoft Teams);
+
+Notificações com áudio gerado por IA para áreas barulhentas (Text-to-Speech).*
+
+# <a name="c6"></a>6. Infraestrutura de Execução
+
+
+*Coleta local: ESP32 envia dados via MQTT.
+
+Processamento em nuvem: AWS EC2 com Python.
+
+Armazenamento escalável: AWS RDS (PostgreSQL) ou alternativa open-source.
+
+Visualização: Dashboards via React, Dash ou Grafana.
+
+Notificações: APIs de envio com IA + NLP.*
+
+
+# <a name="c7"></a>7. Plano Inicial de Desenvolvimento
+
+
+*Etapa	Atividade	Responsável
+1	Escolha e simulação de sensores	Integrador IoT
+2	Implementação das APIs em Python	Dev Backend
+3	Pipeline de ingestão de dados	Dev Backend
+4	Treinamento de modelo preditivo	Cientista de Dados
+5	Integração com dashboards e alertas	Dev Frontend
+6	Geração de mensagens com NLP	Dev IA/NLP*
+
+
+# <a name="c8"></a>8. Referências
 
 _Incluir as principais referências de seu projeto, para que outros possam consultar caso tenham interesse em aprofundar._
 
-# <a name="c7"></a>Anexos
+# <a name="c9"></a>Anexos
 
 *Inclua aqui quaisquer complementos para seu projeto, como diagramas, imagens, tabelas etc. Organize em sub-tópicos utilizando headings menores (use ## ou ### para isso).*
