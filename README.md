@@ -8,8 +8,6 @@
 
 # Enterprise Challenge - Sprint 1 - Reply
 
-**_Os trechos em itálico servem apenas como guia para o preenchimento da seção. Por esse motivo, não devem fazer parte da documentação final_**
-
 ## Nome do Grupo
 
 - Arthur Luiz Rosado Alves -> RM562061
