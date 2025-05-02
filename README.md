@@ -77,7 +77,7 @@ Desenvolveremos uma plataforma inteligente de monitoramento industrial, integran
 
 # <a name="c4"></a>4. Pipeline de Dados
 
-*Sensores IoT (ESP32) simulam ou captam dados de:
+**Sensores IoT (ESP32) simulam ou captam dados de:**
 
 -Vibração anormal (indicador de falha mecânica);
 
@@ -89,7 +89,7 @@ Desenvolveremos uma plataforma inteligente de monitoramento industrial, integran
 
 -API Coletar Dados armazena no banco de dados PostgreSQL hospedado em nuvem.
 
-API Análise de Dados:
+**API Análise de Dados:**
 
 -Realiza pré-processamento (normalização, remoção de ruído);
 
@@ -97,7 +97,7 @@ API Análise de Dados:
 
 -Classifica anomalias e riscos de falha.
 
-API Dashboard exibe:
+**API Dashboard exibe:**
 
 -Status dos sensores;
 
@@ -105,7 +105,7 @@ API Dashboard exibe:
 
 -Relatórios de eficiência e manutenção sugerida.
 
-Notificações automatizadas:
+**Notificações automatizadas:**
 
 -Funcionários são avisados por texto, áudio ou chatbot com recomendações práticas (ex: "Reduza carga da máquina 02, risco de falha em 12h").*
 
