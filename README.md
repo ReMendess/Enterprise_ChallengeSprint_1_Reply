@@ -33,8 +33,6 @@
 
 [8. Diagrama](#c8)
 
-[Anexos](#c9)
-
 <br>
 
 # <a name="c1"></a>1. Justificativa do Problema
@@ -148,6 +146,3 @@ Notificações: APIs de envio com IA + NLP.*
 <img src="document/diagrama.drawio.png" alt="Driagrama da solução"></a>
 </p>
 
-# <a name="c9"></a>Anexos
-
-*Inclua aqui quaisquer complementos para seu projeto, como diagramas, imagens, tabelas etc. Organize em sub-tópicos utilizando headings menores (use ## ou ### para isso).*
