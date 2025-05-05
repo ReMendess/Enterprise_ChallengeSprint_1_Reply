@@ -93,7 +93,7 @@ A solução proposta consiste em uma plataforma inteligente de monitoramento ind
   - Anomalias operacionais;
   - Níveis de risco e desgaste.
 - Essa etapa tem o objetivo de antecipar manutenções e reduzir paradas não planejadas.
-- Frameworks utilizados: `Scikit-learn`, `TensorFlow`, `Keras`.
+- Frameworks utilizados:  `TensorFlow`.
 
 **Visualização dos Dados em Dashboards**
 - Os dados preditivos gerados pelos modelos de machine learning são utilizados para construção de dashboards visuais.
