@@ -55,14 +55,17 @@ A solução proposta consiste em uma plataforma inteligente de monitoramento ind
 # <a name="c3"></a>3. Tecnologias Propostas/Planejadas
 
 
-| Camada            | Tecnologias                           |
-|-------------------|---------------------------------------|
-| Sensoriamento     | ESP32 com sensores                    |
-| Armazenamento     | PostgreSQL (local ou em nuvem)        |
-| Backend APIs      | Python                                |
-| IA / ML           | TensorFlow                            |
-| Notificações      | Telegram Bot, WhatsApp API            |
-| Infraestrutura    | AWS                                   |
+## Definição das Tecnologias Utilizadas
+
+| Camada                   | Tecnologias                                         |
+|--------------------------|-----------------------------------------------------|
+| **Sensoriamento**        | ESP32                                               |
+| **Armazenamento**        | PostgreSQL (local ou nuvem)                         |
+| **Backend e APIs**       | Python, tratamentos de dados e serviços.            |
+| **IA / Machine Learning**| TensorFlow                                          |
+| **Notificações**         | Telegram Bot, WhatsApp API                          |
+| **Infraestrutura**       | AWS                                                 |
+
 
 # <a name="c4"></a>4. Pipeline de Dados
 
