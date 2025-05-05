@@ -73,7 +73,8 @@ A solução proposta consiste em uma plataforma inteligente de monitoramento ind
 **Sensores IoT captam dados:**
 - Vibração anormal;
 - Temperatura excessiva;
-- Umidade.
+- Umidade;
+- Energia.
 
 **Salvar dados brutos**
 - Dados coletados pelos sensores são enviados ao servidor de ingestão.
