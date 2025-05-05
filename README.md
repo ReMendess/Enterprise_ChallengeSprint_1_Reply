@@ -25,7 +25,7 @@
 
 [4. Pipeline de Dados](#c4)
 
-[5. Diferencial com IA Integrada e Comunicação Inteligente](#c5)
+[5. Infraestrutura de Execução](#c5)
 
 [6. Infraestrutura de Execução](#c6)
 
@@ -113,22 +113,7 @@ A solução proposta consiste em uma plataforma inteligente de monitoramento ind
 - Transformação automática dos alertas em ordens de serviço priorizadas.
 
 
-
-
-# <a name="c5"></a>5. Diferencial com IA Integrada e Comunicação Inteligente
-
-
-*Além da predição de falhas, a IA utilizará técnicas de Processamento de Linguagem Natural (NLP) para traduzir insights técnicos em mensagens compreensíveis aos operadores, como:
-
-"A máquina 3 apresentou aumento de vibração fora do padrão. Recomendamos inspeção preventiva nas próximas 4 horas."
-
-Isso pode ser integrado com:
-
-Chatbots internos (Telegram, WhatsApp, Microsoft Teams);
-
-Notificações com áudio gerado por IA para áreas barulhentas (Text-to-Speech).*
-
-# <a name="c6"></a>6. Infraestrutura Planejada de Execução
+# <a name="c5"></a>5. Infraestrutura Planejada de Execução
 
 
 *Coleta local: ESP32.
