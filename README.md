@@ -145,7 +145,7 @@ Notificações: APIs de envio com IA + NLP.*
 # <a name="c8"></a>8. Diagrama
 
 <p align="center">
-<img src="document/teste.png" alt="Driagrama da solução"></a>
+<img src="document/diagrama.drawio.png" alt="Driagrama da solução"></a>
 </p>
 
 # <a name="c9"></a>Anexos
