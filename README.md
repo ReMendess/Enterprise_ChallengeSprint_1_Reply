@@ -55,7 +55,6 @@ A solução proposta consiste em uma plataforma inteligente de monitoramento ind
 
 - **Notificar automaticamente os funcionários via aplicativo;**
 
-- **Exibir insights e relatórios em dashboards.**
 
 # <a name="c3"></a>3. Tecnologias Propostas/Planejadas
 
