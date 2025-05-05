@@ -37,7 +37,7 @@
 
 # <a name="c1"></a>1. Justificativa do Problema
 
-*As linhas de produção industrial sofrem frequentemente com paradas inesperadas, resultando em prejuízos financeiros, atrasos logísticos e riscos à segurança. Esse cenário é agravado pela ausência de sistemas preditivos em tempo real, que dificultam a antecipação de falhas. Diante disso, propomos uma solução que monitora continuamente os equipamentos, identifica padrões de falha e antecipa manutenções, tornando o ambiente mais eficiente, seguro e confiável.*
+*As linhas de produção industrial sofrem frequentemente com paradas inesperadas, resultando em prejuízos financeiros, atrasos logísticos e riscos à segurança. Esse cenário é agravado pela ausência de sistemas preditivos em tempo real, que dificultam a antecipação de falhas. Diante disso, propomos uma solução que monitora continuamente os equipamentos, identifica padrões de falha e emite alertas para intervenções preventivas, tornando o ambiente mais eficiente, seguro e confiável.*
 
 # <a name="c2"></a>2. Descrição da Solução Proposta
 
