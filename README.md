@@ -71,19 +71,18 @@ A solução proposta consiste em uma plataforma inteligente de monitoramento ind
 # <a name="c4"></a>4. Pipeline de Dados
 
 **Sensores IoT captam dados de:**
-
--Vibração anormal;
--Temperatura excessiva;
--Umidade.
--Transmissão dos dados para servidor de ingestão.
--API Coletar Dados armazena no banco de dados hospedado em nuvem.
+- Vibração anormal;
+- Temperatura excessiva;
+- Umidade.
+- Transmissão dos dados para servidor de ingestão.
+- API Coletar Dados armazena no banco de dados hospedado em nuvem.
 
 **Limpeza e tratamento**
-
--Realiza pré-processamento e normalização;
+- Realiza pré-processamento e normalização;
 - Remoção de dados nulos ou ausentes;
 - Correção de dados inválidos;
-- prepara os dados para análise preditiva e visualização;
+- Prepara os dados para análise preditiva e visualização;
+
 
 -Usa modelos preditivos treinados com histórico;
 
