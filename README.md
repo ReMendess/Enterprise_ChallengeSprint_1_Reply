@@ -25,11 +25,7 @@
 
 [4. Pipeline de Dados](#c4)
 
-[5. Infraestrutura de Execução](#c5)
-
-[6. Infraestrutura de Execução](#c6)
-
-[7. Plano Inicial de Desenvolvimento](#c7)
+[5. Plano Inicial de Desenvolvimento](#c7)
 
 [8. Diagrama](#c8)
 
@@ -113,21 +109,7 @@ A solução proposta consiste em uma plataforma inteligente de monitoramento ind
 - Transformação automática dos alertas em ordens de serviço priorizadas.
 
 
-# <a name="c5"></a>5. Infraestrutura Planejada de Execução
-
-
-*Coleta local: ESP32.
-
-Processamento em nuvem: AWS EC2 com Python ou alternativa.
-
-Armazenamento escalável: AWS RDS (PostgreSQL) ou alternativa.
-
-Visualização: Dashboards via React, Dash ou Grafana.
-
-Notificações: APIs de envio com IA + NLP.*
-
-
-# <a name="c7"></a>7. Plano Inicial de Desenvolvimento
+# <a name="c5"></a>5. Plano Inicial de Desenvolvimento
 
 
 | Etapa | Atividade                            | Responsável         |
