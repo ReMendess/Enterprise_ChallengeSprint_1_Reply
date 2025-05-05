@@ -73,18 +73,17 @@ A solução proposta consiste em uma plataforma inteligente de monitoramento ind
 **Sensores IoT captam dados de:**
 
 -Vibração anormal;
-
 -Temperatura excessiva;
-
 -Umidade.
-
 -Transmissão dos dados para servidor de ingestão.
-
 -API Coletar Dados armazena no banco de dados hospedado em nuvem.
 
-**API Análise de Dados:**
+**Limpeza e tratamento**
 
 -Realiza pré-processamento e normalização;
+- Remoção de dados nulos ou ausentes;
+- Correção de dados inválidos;
+- prepara os dados para análise preditiva e visualização;
 
 -Usa modelos preditivos treinados com histórico;
 
