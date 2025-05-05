@@ -70,31 +70,34 @@ A solução proposta consiste em uma plataforma inteligente de monitoramento ind
 
 # <a name="c4"></a>4. Pipeline de Dados
 
-**Sensores IoT captam dados de:**
+**Sensores IoT captam dados:**
 - Vibração anormal;
 - Temperatura excessiva;
 - Umidade.
-- Transmissão dos dados para servidor de ingestão.
-- API Coletar Dados armazena no banco de dados hospedado em nuvem.
-
+**Salvar dados brutos**
+- Dados coletados pelos sensores são enviados ao servidor de ingestão.
+- A API "Coletar Dados" armazena essas informações no banco de dados hospedado em nuvem.
 **Limpeza e tratamento**
 - Realiza pré-processamento e normalização;
 - Remoção de dados nulos ou ausentes;
 - Correção de dados inválidos;
 - Prepara os dados para análise preditiva e visualização;
-
-
--Usa modelos preditivos treinados com histórico;
-
--Classifica anomalias e riscos de falha.
-
-**API Dashboard exibe:**
-
--Status dos sensores;
-
--Alertas preditivos;
-
--Relatórios de eficiência e manutenção sugerida.
+**Análise preditiva com Machine Learning**
+- Utiliza modelos de aprendizado de máquina treinados com dados históricos dos sensores.
+- Os modelos analisam padrões de comportamento das máquinas para prever:
+  - Possíveis falhas;
+  - Anomalias operacionais;
+  - Níveis de risco e desgaste.
+- Essa etapa permite antecipar manutenções e reduzir paradas não planejadas.
+- Frameworks utilizados: `Scikit-learn`, `TensorFlow`, `Keras`.
+**Visualização dos Dados em Dashboards**
+- Os dados preditivos gerados pelos modelos de machine learning são utilizados para construção de dashboards visuais.
+- Os dashboards são desenvolvidos com as tecnologias **R** e **Python**, oferecendo uma interface intuitiva para o usuário final ou equipe técnica.
+**Informações exibidas:**
+- Status dos sensores em tempo real;
+- Alertas de risco preditivo;
+- Histórico de desempenho das máquinas;
+- Recomendações de manutenção preventiva.
 
 **Notificações automatizadas:**
 
