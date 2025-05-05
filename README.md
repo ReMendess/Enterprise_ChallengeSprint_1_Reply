@@ -51,7 +51,7 @@ A solução proposta consiste em uma plataforma inteligente de monitoramento ind
 
 - **Aplicar algoritmos de machine learning para predição de falhas;**
 
-- - **Visualização em dashboards interativos e simplificados;**
+- **Visualização em dashboards interativos e simplificados;**
 
 - **Notificar automaticamente os funcionários via aplicativo;**
 
