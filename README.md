@@ -25,9 +25,9 @@
 
 [4. Pipeline de Dados](#c4)
 
-[5. Plano Inicial de Desenvolvimento](#c7)
+[5. Plano Inicial de Desenvolvimento](#c5)
 
-[8. Diagrama](#c8)
+[6. Diagrama](#c6)
 
 <br>
 
@@ -122,7 +122,7 @@ A solução proposta consiste em uma plataforma inteligente de monitoramento ind
 | 6     | Mensagens com NLP e voz              | Especialista NLP     |
 
 
-# <a name="c8"></a>8. Diagrama
+# <a name="c6"></a>6. Diagrama
 
 <p align="center">
 <img src="document/diagrama.drawio.png" alt="Driagrama da solução"></a>
