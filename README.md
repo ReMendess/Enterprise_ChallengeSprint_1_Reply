@@ -41,13 +41,17 @@
 
 # <a name="c2"></a>2. Descrição da Solução Proposta
 
-Vamos desenvolver uma plataforma inteligente de monitoramento industrial, integrando sensores IoT, armazenamento em nuvem, processamento com IA e dashboards interativos. O sistema será capaz de:
+A solução proposta consiste em uma plataforma inteligente de monitoramento industrial, baseada na integração de tecnologias como sensores IoT, armazenamento em nuvem, inteligência artificial e visualização de dados. O objetivo é detectar antecipadamente possíveis falhas em equipamentos, reduzindo paradas inesperadas, otimizando manutenções e promovendo segurança operacional.
 
-- **Coletar dados em tempo real via sensores**;
+- **Coletar dados em tempo real via sensores IoT**;
 
 - **Armazenar os dados em um banco de dados na nuvem;**
+  
+- **Processamento e Tratamento dos dados;**
 
 - **Aplicar algoritmos de machine learning para predição de falhas;**
+
+- - **Visualização em dashboards interativos e simplificados;**
 
 - **Notificar automaticamente os funcionários via aplicativo;**
 
