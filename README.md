@@ -39,53 +39,51 @@
 
 # <a name="c1"></a>1. Justificativa do Problema
 
-*Indústrias frequentemente enfrentam paradas inesperadas nas linhas de produção, gerando perdas financeiras, atrasos logísticos e riscos à segurança operacional. A ausência de um sistema preditivo e em tempo real dificulta a prevenção de falhas. Nossa solução busca monitorar continuamente os equipamentos, identificar padrões de falhas e antecipar manutenções, promovendo um ambiente mais eficiente e inteligente..*
+*Máquinas industriais frequentemente enfrentam paradas inesperadas nas linhas de produção, gerando perdas financeiras, atrasos logísticos e riscos à segurança. A ausência de um sistema preditivo e em tempo real dificulta a prevenção de falhas. Nossa solução busca monitorar continuamente os equipamentos, identificar os padrões de falhas e antecipar as manutenções. Promovendo um ambiente mais eficiente, seguro e entregando uma solução de qualidade.*
 
 # <a name="c2"></a>2. Descrição da Solução Proposta
 
-Desenvolveremos uma plataforma inteligente de monitoramento industrial, integrando sensores IoT, armazenamento em nuvem, processamento com IA e dashboards interativos. O sistema será capaz de:
+Vamos desenvolver uma plataforma inteligente de monitoramento industrial, integrando sensores IoT, armazenamento em nuvem, processamento com IA e dashboards interativos. O sistema será capaz de:
 
-- **Coletar dados em tempo real via sensores (ESP32)**;
+- **Coletar dados em tempo real via sensores**;
 
 - **Armazenar os dados em um banco de dados na nuvem;**
 
 - **Aplicar algoritmos de machine learning para predição de falhas;**
 
-- **Notificar automaticamente os funcionários via aplicativo web/móvel com linguagem natural (NLP);**
+- **Notificar automaticamente os funcionários via aplicativo;**
 
-- **Exibir insights e relatórios em dashboards acessíveis.**
+- **Exibir insights e relatórios em dashboards.**
 
-# <a name="c3"></a>3. Tecnologias Propostas
+# <a name="c3"></a>3. Tecnologias Propostas/Planejadas
 
 
 | Camada            | Tecnologias                           |
 |-------------------|----------------------------------------|
 | Sensoriamento     | ESP32 com sensores                    |
-| Transmissão       | MQTT via Wi-Fi                        |
 | Armazenamento     | PostgreSQL (local ou em nuvem)        |
-| Backend APIs      | Python (Flask ou FastAPI)             |
+| Backend APIs      | Python                                |
 | IA / ML           | Scikit-learn, TensorFlow, Keras       |
-| Frontend          | React, Dash (Plotly)                  |
 | Notificações      | Telegram Bot, WhatsApp API            |
 | Infraestrutura    | AWS EC2, Lambda, S3                   |
 
 # <a name="c4"></a>4. Pipeline de Dados
 
-**Sensores IoT (ESP32) simulam ou captam dados de:**
+**Sensores IoT captam dados de:**
 
--Vibração anormal (indicador de falha mecânica);
+-Vibração anormal;
 
--Temperatura excessiva (indicador de superaquecimento);
+-Temperatura excessiva;
 
--Umidade (indicador de ambiente insalubre).
+-Umidade.
 
--Transmissão dos dados via protocolo MQTT para servidor de ingestão.
+-Transmissão dos dados para servidor de ingestão.
 
--API Coletar Dados armazena no banco de dados PostgreSQL hospedado em nuvem.
+-API Coletar Dados armazena no banco de dados hospedado em nuvem.
 
 **API Análise de Dados:**
 
--Realiza pré-processamento (normalização, remoção de ruído);
+-Realiza pré-processamento e normalização;
 
 -Usa modelos preditivos treinados com histórico;
 
@@ -117,14 +115,14 @@ Chatbots internos (Telegram, WhatsApp, Microsoft Teams);
 
 Notificações com áudio gerado por IA para áreas barulhentas (Text-to-Speech).*
 
-# <a name="c6"></a>6. Infraestrutura de Execução
+# <a name="c6"></a>6. Infraestrutura Planejada de Execução
 
 
-*Coleta local: ESP32 envia dados via MQTT.
+*Coleta local: ESP32.
 
-Processamento em nuvem: AWS EC2 com Python.
+Processamento em nuvem: AWS EC2 com Python ou alternativa.
 
-Armazenamento escalável: AWS RDS (PostgreSQL) ou alternativa open-source.
+Armazenamento escalável: AWS RDS (PostgreSQL) ou alternativa.
 
 Visualização: Dashboards via React, Dash ou Grafana.
 
