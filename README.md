@@ -128,6 +128,6 @@ A solução proposta consiste em uma plataforma inteligente de monitoramento ind
 # <a name="c6"></a>6. Diagrama
 
 <p align="center">
-<img src="document/diagrama.drawio.png" alt="Driagrama da solução"></a>
+<img src="diagrama.drawio (1).png" alt="Driagrama da solução"></a>
 </p>
 
