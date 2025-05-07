@@ -60,10 +60,9 @@ A solução proposta consiste em uma plataforma inteligente de monitoramento ind
 | Camada                   | Tecnologias                                         |
 |--------------------------|-----------------------------------------------------|
 | **Sensoriamento**        | ESP32                                               |
-| **Armazenamento**        | PostgreSQL (local ou nuvem)                         |
+| **Armazenamento**        | PostgreSQL                        |
 | **Backend e APIs**       | Python, tratamentos de dados e serviços.            |
 | **IA / Machine Learning**| TensorFlow                                          |
-| **Notificações**         | Telegram Bot, WhatsApp API                          |
 | **Infraestrutura**       | AWS                                                 |
 
 
@@ -115,14 +114,14 @@ A solução proposta consiste em uma plataforma inteligente de monitoramento ind
 # <a name="c5"></a>5. Plano Inicial de Desenvolvimento
 
 
-| Etapa | Atividade                            | Responsável         |
-|-------|--------------------------------------|----------------------|
-| 1     | Escolha e simulação de sensores      | Integrador IoT       |
-| 2     | Criação das APIs                     | Dev Backend          |
-| 3     | Pipeline de ingestão de dados        | Dev Backend          |
-| 4     | Treinamento do modelo de IA          | Cientista de Dados   |
-| 5     | Desenvolvimento de dashboards        | Dev Frontend         |
-| 6     | Mensagens com NLP e voz              | Especialista NLP     |
+| Etapa | Atividade                            |
+|-------|--------------------------------------|
+| 1     | Escolha e simulação de sensores      |
+| 2     | Criação das APIs                     | 
+| 3     | Pipeline de ingestão de dados        | 
+| 4     | Treinamento do modelo de IA          |
+| 5     | Desenvolvimento de dashboards        | 
+| 6     | Mensagens com NLP e voz              | 
 
 
 # <a name="c6"></a>6. Diagrama
